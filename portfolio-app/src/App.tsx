@@ -9,12 +9,23 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="min-h-screen bg-background text-foreground">
-        <div className="fixed top-3 left-3 z-50">
-          <NavigationTopBar />
-        </div>
-        <div className="fixed top-4 right-4 z-50">
-          <ModeToggle />
-        </div>
+
+        {/* Top bar with Portfolio title, navigation, and theme toggle */}
+        <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
+          <div className="container mx-auto flex h-14 items-center justify-between">
+            <div className="flex items-center justify-between gap-8">
+              <div className="flex items-center">
+                <h1 className="text-xl font-bold text-foreground">TRISTAN CLARK</h1>
+              </div>
+              <div className="flex items-center">
+                <NavigationTopBar />
+              </div>
+            </div>
+            <div className="flex items-center">
+              <ModeToggle />
+            </div>
+          </div>
+        </header>
         
         {/* Main content area */}
         <main className="container mx-auto max-w-6xl px-6 py-8">
