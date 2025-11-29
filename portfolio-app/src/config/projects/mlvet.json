@@ -1,0 +1,108 @@
+{
+  "id": "mlvet",
+  "title": "MLVET - Machine Learning Video Editing Tool",
+  "shortDescription": "An offline desktop video editing application that uses ML-generated transcripts to allow editing video as text.",
+  "fullDescription": "MLVET is an innovative desktop application that revolutionizes video editing by allowing users to edit video content through text manipulation. Using machine learning-generated transcripts, the application enables intuitive text-based editing where changes to the transcript automatically reflect in the video timeline.",
+  "links": {
+    "live": "/mlvet",
+    "repository": "https://github.com/MLVETDevelopers/mlvet",
+    "demo": "",
+    "documentation": "https://astro-peach.vercel.app/"
+  },
+  "images": [
+    "/src/assets/mlvet/mlvet-01.png",
+    "/src/assets/mlvet/mlvet-02.gif",
+    "/src/assets/mlvet/mlvet-03.gif",
+    "/src/assets/mlvet/mlvet-04.png"
+  ],
+  "metadata": {
+    "status": "active",
+    "startDate": "2024-01",
+    "endDate": null,
+    "featured": true,
+    "displayOrder": 1
+  },
+  "technologies": {
+    "languages": ["TypeScript", "HTML", "CSS"],
+    "frameworks": ["ReactJS", "Electron"],
+    "databases": [],
+    "tools": ["NodeJS"],
+    "operatingSystems": ["Windows", "Linux"],
+    "platforms": ["Desktop"],
+    "versionControl": ["GitHub"]
+  },
+  "skills": [
+    "Frontend Development",
+    "Backend Development",
+    "UI/UX Design",
+    "Machine Learning Integration",
+    "Desktop Application Development",
+    "Agile/SAFe Methodology",
+    "Release Management",
+    "Video Processing"
+  ],
+  "highlights": [
+    "Edit video by modifying ML-generated transcripts",
+    "Full-year Software Engineering capstone project with 17-person team",
+    "Served as Release Train Engineer under SAFe framework",
+    "Designed UI/UX in Figma and managed builds/releases",
+    "Offline desktop application with cross-platform support"
+  ],
+  "detailedContent": {
+    "overview": "MLVET revolutionizes video editing by enabling text-based editing through ML-generated transcripts. Users can edit video content by simply modifying the transcript text, with changes automatically reflected in the video timeline. Developed as a full-year capstone project with a 17-person Agile team using the SAFe framework.",
+    "features": [
+      {
+        "title": "Text-Based Video Editing",
+        "description": "Edit video content by modifying ML-generated transcripts, with automatic synchronization to the video timeline"
+      },
+      {
+        "title": "Video Transcription Integration",
+        "description": "Seamless project creation flow with automatic transcription using VOSK and AssemblyAI"
+      },
+      {
+        "title": "Take Management System",
+        "description": "Comprehensive take selection, creation, and deletion functionality for efficient project organization"
+      },
+      {
+        "title": "Persistent Settings",
+        "description": "Settings save and load functionality for consistent user experience across sessions"
+      },
+      {
+        "title": "Cross-Platform Desktop Application",
+        "description": "Offline Electron-based application with professional packaging for Windows and Linux"
+      }
+    ],
+    "challenges": [
+      "Coordinating development across a 17-person team using Agile/SAFe methodology",
+      "Integrating ML transcription services with real-time video editing",
+      "Creating an intuitive text-to-video editing interface",
+      "Managing application packaging and release pipeline",
+      "Ensuring offline functionality without cloud dependencies"
+    ],
+    "outcomes": [
+      "Successfully delivered full-featured application as capstone project",
+      "Implemented complete video transcription and project creation workflow",
+      "Managed multiple releases as Release Train Engineer",
+      "Created comprehensive UI/UX design system in Figma",
+      "Established robust documentation and sprint tracking processes"
+    ],
+    "technicalDetails": {
+      "architecture": "Electron-based desktop application with React frontend and NodeJS backend",
+      "mlModels": "VOSK and AssemblyAI for video text transcription",
+      "performance": "Handles MP4 video exporting with offline processing capabilities",
+      "methodology": "Agile development using SAFe (Scaled Agile Framework)"
+    }
+  },
+  "team": {
+    "size": 17,
+    "role": "Full-Stack Developer & Release Train Engineer",
+    "responsibilities": [
+      "Developed frontend features in TypeScript and React (video transcription load, project creation flow)",
+      "Implemented backend functionality in NodeJS and Electron (take management, settings persistence)",
+      "Managed application packaging and distribution for cross-platform deployment",
+      "Designed UI/UX components and workflows in Figma",
+      "Served as Release Train Engineer under SAFe framework",
+      "Coordinated builds and managed release pipeline"
+    ]
+  }
+}
